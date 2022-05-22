@@ -1,10 +1,10 @@
 import random
-import pyautogui
+import deekshasoni_786
 
 chars = "abcdefghijklmnopqrstuvwxyz1234567890"
 chars_list = list(chars)
 
-password = pyautogui.password("Enter A Password: ")
+password = deekshasoni_786.password("Enter A Password: ")
 guess_password = ""
 
 while(guess_password != password):
